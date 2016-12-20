@@ -1,0 +1,526 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BDDC2D851E095C35003E3E98 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDDC2D841E095C35003E3E98 /* AppDelegate.swift */; };
+		BDDC2D871E095C35003E3E98 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDDC2D861E095C35003E3E98 /* ViewController.swift */; };
+		BDDC2D8A1E095C35003E3E98 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDDC2D881E095C35003E3E98 /* Main.storyboard */; };
+		BDDC2D8C1E095C35003E3E98 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDDC2D8B1E095C35003E3E98 /* Assets.xcassets */; };
+		BDDC2D8F1E095C35003E3E98 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDDC2D8D1E095C35003E3E98 /* LaunchScreen.storyboard */; };
+		BDDC2D9A1E095C35003E3E98 /* hellojayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDDC2D991E095C35003E3E98 /* hellojayTests.swift */; };
+		BDDC2DA51E095C35003E3E98 /* hellojayUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDDC2DA41E095C35003E3E98 /* hellojayUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BDDC2D961E095C35003E3E98 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BDDC2D791E095C35003E3E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BDDC2D801E095C35003E3E98;
+			remoteInfo = hellojay;
+		};
+		BDDC2DA11E095C35003E3E98 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BDDC2D791E095C35003E3E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BDDC2D801E095C35003E3E98;
+			remoteInfo = hellojay;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BDDC2D811E095C35003E3E98 /* hellojay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = hellojay.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDDC2D841E095C35003E3E98 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BDDC2D861E095C35003E3E98 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BDDC2D891E095C35003E3E98 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BDDC2D8B1E095C35003E3E98 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BDDC2D8E1E095C35003E3E98 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BDDC2D901E095C35003E3E98 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BDDC2D951E095C35003E3E98 /* hellojayTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = hellojayTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDDC2D991E095C35003E3E98 /* hellojayTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hellojayTests.swift; sourceTree = "<group>"; };
+		BDDC2D9B1E095C35003E3E98 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BDDC2DA01E095C35003E3E98 /* hellojayUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = hellojayUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDDC2DA41E095C35003E3E98 /* hellojayUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hellojayUITests.swift; sourceTree = "<group>"; };
+		BDDC2DA61E095C35003E3E98 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BDDC2D7E1E095C35003E3E98 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDDC2D921E095C35003E3E98 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDDC2D9D1E095C35003E3E98 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BDDC2D781E095C35003E3E98 = {
+			isa = PBXGroup;
+			children = (
+				BDDC2D831E095C35003E3E98 /* hellojay */,
+				BDDC2D981E095C35003E3E98 /* hellojayTests */,
+				BDDC2DA31E095C35003E3E98 /* hellojayUITests */,
+				BDDC2D821E095C35003E3E98 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BDDC2D821E095C35003E3E98 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BDDC2D811E095C35003E3E98 /* hellojay.app */,
+				BDDC2D951E095C35003E3E98 /* hellojayTests.xctest */,
+				BDDC2DA01E095C35003E3E98 /* hellojayUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BDDC2D831E095C35003E3E98 /* hellojay */ = {
+			isa = PBXGroup;
+			children = (
+				BDDC2D841E095C35003E3E98 /* AppDelegate.swift */,
+				BDDC2D861E095C35003E3E98 /* ViewController.swift */,
+				BDDC2D881E095C35003E3E98 /* Main.storyboard */,
+				BDDC2D8B1E095C35003E3E98 /* Assets.xcassets */,
+				BDDC2D8D1E095C35003E3E98 /* LaunchScreen.storyboard */,
+				BDDC2D901E095C35003E3E98 /* Info.plist */,
+			);
+			path = hellojay;
+			sourceTree = "<group>";
+		};
+		BDDC2D981E095C35003E3E98 /* hellojayTests */ = {
+			isa = PBXGroup;
+			children = (
+				BDDC2D991E095C35003E3E98 /* hellojayTests.swift */,
+				BDDC2D9B1E095C35003E3E98 /* Info.plist */,
+			);
+			path = hellojayTests;
+			sourceTree = "<group>";
+		};
+		BDDC2DA31E095C35003E3E98 /* hellojayUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BDDC2DA41E095C35003E3E98 /* hellojayUITests.swift */,
+				BDDC2DA61E095C35003E3E98 /* Info.plist */,
+			);
+			path = hellojayUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BDDC2D801E095C35003E3E98 /* hellojay */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BDDC2DA91E095C35003E3E98 /* Build configuration list for PBXNativeTarget "hellojay" */;
+			buildPhases = (
+				BDDC2D7D1E095C35003E3E98 /* Sources */,
+				BDDC2D7E1E095C35003E3E98 /* Frameworks */,
+				BDDC2D7F1E095C35003E3E98 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = hellojay;
+			productName = hellojay;
+			productReference = BDDC2D811E095C35003E3E98 /* hellojay.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BDDC2D941E095C35003E3E98 /* hellojayTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BDDC2DAC1E095C35003E3E98 /* Build configuration list for PBXNativeTarget "hellojayTests" */;
+			buildPhases = (
+				BDDC2D911E095C35003E3E98 /* Sources */,
+				BDDC2D921E095C35003E3E98 /* Frameworks */,
+				BDDC2D931E095C35003E3E98 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BDDC2D971E095C35003E3E98 /* PBXTargetDependency */,
+			);
+			name = hellojayTests;
+			productName = hellojayTests;
+			productReference = BDDC2D951E095C35003E3E98 /* hellojayTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BDDC2D9F1E095C35003E3E98 /* hellojayUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BDDC2DAF1E095C35003E3E98 /* Build configuration list for PBXNativeTarget "hellojayUITests" */;
+			buildPhases = (
+				BDDC2D9C1E095C35003E3E98 /* Sources */,
+				BDDC2D9D1E095C35003E3E98 /* Frameworks */,
+				BDDC2D9E1E095C35003E3E98 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BDDC2DA21E095C35003E3E98 /* PBXTargetDependency */,
+			);
+			name = hellojayUITests;
+			productName = hellojayUITests;
+			productReference = BDDC2DA01E095C35003E3E98 /* hellojayUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BDDC2D791E095C35003E3E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Jay;
+				TargetAttributes = {
+					BDDC2D801E095C35003E3E98 = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+					};
+					BDDC2D941E095C35003E3E98 = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = BDDC2D801E095C35003E3E98;
+					};
+					BDDC2D9F1E095C35003E3E98 = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = BDDC2D801E095C35003E3E98;
+					};
+				};
+			};
+			buildConfigurationList = BDDC2D7C1E095C35003E3E98 /* Build configuration list for PBXProject "hellojay" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BDDC2D781E095C35003E3E98;
+			productRefGroup = BDDC2D821E095C35003E3E98 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BDDC2D801E095C35003E3E98 /* hellojay */,
+				BDDC2D941E095C35003E3E98 /* hellojayTests */,
+				BDDC2D9F1E095C35003E3E98 /* hellojayUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BDDC2D7F1E095C35003E3E98 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDDC2D8F1E095C35003E3E98 /* LaunchScreen.storyboard in Resources */,
+				BDDC2D8C1E095C35003E3E98 /* Assets.xcassets in Resources */,
+				BDDC2D8A1E095C35003E3E98 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDDC2D931E095C35003E3E98 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDDC2D9E1E095C35003E3E98 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BDDC2D7D1E095C35003E3E98 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDDC2D871E095C35003E3E98 /* ViewController.swift in Sources */,
+				BDDC2D851E095C35003E3E98 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDDC2D911E095C35003E3E98 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDDC2D9A1E095C35003E3E98 /* hellojayTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDDC2D9C1E095C35003E3E98 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDDC2DA51E095C35003E3E98 /* hellojayUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BDDC2D971E095C35003E3E98 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BDDC2D801E095C35003E3E98 /* hellojay */;
+			targetProxy = BDDC2D961E095C35003E3E98 /* PBXContainerItemProxy */;
+		};
+		BDDC2DA21E095C35003E3E98 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BDDC2D801E095C35003E3E98 /* hellojay */;
+			targetProxy = BDDC2DA11E095C35003E3E98 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BDDC2D881E095C35003E3E98 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BDDC2D891E095C35003E3E98 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BDDC2D8D1E095C35003E3E98 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BDDC2D8E1E095C35003E3E98 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BDDC2DA71E095C35003E3E98 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BDDC2DA81E095C35003E3E98 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BDDC2DAA1E095C35003E3E98 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = hellojay/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ripo.hellojay;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		BDDC2DAB1E095C35003E3E98 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = hellojay/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ripo.hellojay;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		BDDC2DAD1E095C35003E3E98 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = hellojayTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ripo.hellojayTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/hellojay.app/hellojay";
+			};
+			name = Debug;
+		};
+		BDDC2DAE1E095C35003E3E98 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = hellojayTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ripo.hellojayTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/hellojay.app/hellojay";
+			};
+			name = Release;
+		};
+		BDDC2DB01E095C35003E3E98 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = hellojayUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ripo.hellojayUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = hellojay;
+			};
+			name = Debug;
+		};
+		BDDC2DB11E095C35003E3E98 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = hellojayUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ripo.hellojayUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = hellojay;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BDDC2D7C1E095C35003E3E98 /* Build configuration list for PBXProject "hellojay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDDC2DA71E095C35003E3E98 /* Debug */,
+				BDDC2DA81E095C35003E3E98 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BDDC2DA91E095C35003E3E98 /* Build configuration list for PBXNativeTarget "hellojay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDDC2DAA1E095C35003E3E98 /* Debug */,
+				BDDC2DAB1E095C35003E3E98 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BDDC2DAC1E095C35003E3E98 /* Build configuration list for PBXNativeTarget "hellojayTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDDC2DAD1E095C35003E3E98 /* Debug */,
+				BDDC2DAE1E095C35003E3E98 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BDDC2DAF1E095C35003E3E98 /* Build configuration list for PBXNativeTarget "hellojayUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDDC2DB01E095C35003E3E98 /* Debug */,
+				BDDC2DB11E095C35003E3E98 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BDDC2D791E095C35003E3E98 /* Project object */;
+}
